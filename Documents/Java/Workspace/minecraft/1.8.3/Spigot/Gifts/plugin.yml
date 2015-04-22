@@ -1,0 +1,15 @@
+name: Gifts
+main: com.crystalspires.gifts.Gifts
+version: 1.2
+description: Give gifts
+
+commands:
+   gift:
+      description: Give the gift of health
+      usage: /gift [WhatYouWantToGive] [player]
+      permission: gifts.health
+      permission-message: You don't have <permission>
+   tprl:
+      description: Random TP
+      usage: /tprl
+      
